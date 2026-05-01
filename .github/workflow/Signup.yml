@@ -21,6 +21,5 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Deploy to S3
-        run: |
-          aws s3 sync public/ s3://${{ signup-page-demo }} --delete
+        run: aws s3 sync.s3://signup-page-demo  --delete
 
