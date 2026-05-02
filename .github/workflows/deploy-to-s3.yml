@@ -22,4 +22,4 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync . s3://signup-page-demo --delete \
+          aws s3 sync . s3://signup-page-demo --delete
