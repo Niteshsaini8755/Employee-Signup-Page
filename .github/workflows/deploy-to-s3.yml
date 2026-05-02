@@ -1,4 +1,4 @@
-name: Deploy Static Website to S3
+name: .github/workflows/deploy-to-s3.yml
 
 on:
   push:
